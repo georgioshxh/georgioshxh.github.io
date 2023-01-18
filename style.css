@@ -32,6 +32,11 @@ body {
     padding: 6px;
 }
 
+#main-navbar a:hover {
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
 #main-content {
     padding-top: 12px;
 }
