@@ -6,12 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{{ page.title }}</title>
         <style>
-            background-color: black;
-            color: white;
+            {% include style.css %}
         </style>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" id="local-style" media="none" href="/_includes/style.css">
     </head>
     <body>
+        <script>
+            if (document.location.hostname === 'localhost') {
+                document.getElementById('local-style').media = 'all'
+            }
+        </script>
         <div id="main-container">
             <header id="main-header">
                 <div class="big-a">
