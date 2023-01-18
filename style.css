@@ -27,9 +27,11 @@ body {
 }
 
 #main-navbar a {
+    text-transform: uppercase;
     color: white;
     text-decoration: none;
     padding: 6px;
+    transition: padding 0.15s ease;
 }
 
 #main-navbar a:hover {
@@ -49,4 +51,8 @@ body {
 #main-footer {
     margin: auto;
     text-align: center;
+}
+
+#main-footer a {
+    color: white;
 }
