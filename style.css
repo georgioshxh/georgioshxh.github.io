@@ -3,6 +3,45 @@ body {
     padding: 0;
     background-color: black;
     color: white;
+    font-family: 'Verdana';
+
+    /* We might need to add to more places. */
+    box-sizing: border-box;
 }
 
+.big-a {
+    font-size: 36px;
+    padding: 10px;
+}
 
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+    width: 100%;
+}
+
+#main-navbar {
+    display: flex;
+}
+
+#main-navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+}
+
+#main-content {
+    padding-top: 12px;
+}
+
+#main-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#main-footer {
+    margin: auto;
+    text-align: center;
+}

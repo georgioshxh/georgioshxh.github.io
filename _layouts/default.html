@@ -3,9 +3,28 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        {{ content }}
+        <div id="main-container">
+            <header id="main-header">
+                <div class="big-a">
+                    A
+                </div>
+                <nav id="main-navbar">
+                    <a href="index.html">Aderfina</a> 
+                    <a href="services.html">Tjänster</a> 
+                    <a href="customers.html">Kunder</a>
+                    <a href="about.html">Om oss</a> 
+                    <a href="">Kontakt</a> 
+                </nav>
+            </header>
+            <article id="main-content">
+                {{ content }}
+            </article>
+            <footer id="main-footer">
+                <a href="instagram.com">Insta</a>
+            </footer>
+        </div>
     </body>
 </html>
