@@ -5,15 +5,13 @@
         <meta name="description" content="Aderfina information">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{{ page.title }}</title>
-        <style>
-            {% include style.css %}
-        </style>
-        <link rel="stylesheet" id="local-style" media="none" href="/_includes/style.css">
+        <style>{% include style.css %}</style>
+        <link rel="stylesheet" id="local-style" disabled href="/_includes/style.css">
     </head>
     <body>
         <script>
             if (document.location.hostname === 'localhost') {
-                document.getElementById('local-style').media = 'all'
+                document.getElementById('local-style').removeAttribute('disabled')
             }
         </script>
         <div id="main-container">
