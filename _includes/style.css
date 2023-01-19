@@ -96,4 +96,12 @@ body {
     #main-header {
         flex-flow: column nowrap;
     }
+    #curator-feed-default-feed-layout {
+        min-height: 500px;
+        max-height: 500px;
+    }
+}
+
+#curator-feed-default-feed-layout.crt-widget.crt-widget-branded {
+    padding-bottom: 0px;
 }
