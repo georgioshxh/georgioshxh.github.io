@@ -56,3 +56,7 @@ body {
 #main-footer a {
     color: white;
 }
+
+#curator-feed-default-feed-layout {
+    min-width: 826px;
+}
